@@ -21,7 +21,7 @@ namespace spotify {
         << "?client_id=" << client_id
         << "&response_type=code"
         << "&redirect_uri=" << redirect_uri
-        << "&scope=user-read-playback-state%20user-modify-playback-state";
+        << "&scope=user-read-playback-state%20user-modify-playback-state%20playlist-read-private%20playlist-read-collaborative";
 
     return url.str();
     }

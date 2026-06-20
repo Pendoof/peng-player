@@ -19,6 +19,7 @@ add_executable(peng-player
     src/env.cpp
     src/spotify/auth.cpp
     src/spotify/server.cpp
+    src/spotify/api.cpp
 )
 
 target_compile_definitions(peng-player PRIVATE CPPHTTPLIB_OPENSSL_SUPPORT)
